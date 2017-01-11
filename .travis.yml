@@ -15,3 +15,4 @@ script:
   - docker run -it au/test uname -a
   - docker run -it au/test go version
   - docker run -it au/test make check
+  - docker run -it au/test uptime
